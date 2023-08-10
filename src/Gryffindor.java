@@ -22,12 +22,18 @@ public class Gryffindor extends Hogwarts {
         return courage;
     }
 
+
+    @Override
+    public int calculateSpecificScore() {
+        return nobility + honor + courage;
+    }
+
     @Override
     public String toString() {
         return "Gryffindor{" +
                 "nobility=" + nobility +
                 ", honor=" + honor +
                 ", courage=" + courage +
-                '}';
+                "} " + super.toString();
     }
 }

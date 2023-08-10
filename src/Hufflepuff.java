@@ -23,10 +23,16 @@ public class Hufflepuff extends Hogwarts{
     }
 
     @Override
+    public int calculateSpecificScore() {
+        return industriousness + loyalty + honesty;
+    }
+
+    @Override
     public String toString() {
-        return  super.toString() +
+        return "Hufflepuff{" +
                 "industriousness=" + industriousness +
                 ", loyalty=" + loyalty +
-                ", honesty=" + honesty;
+                ", honesty=" + honesty +
+                "} " + super.toString();
     }
 }

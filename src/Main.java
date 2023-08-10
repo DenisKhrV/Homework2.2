@@ -15,53 +15,8 @@ public class Main {
 
         hermioneGranger.compare(zachariasSmith);
         harryPotter.compare(hermioneGranger);
-        printDescription(harryPotter);
-        printDescription(zachariasSmith);
         System.out.println(harryPotter);
 
 
-    }
-
-
-    public static void printDescription(Gryffindor gryffindor) {
-        System.out.println(gryffindor.getName() +
-                ": Умение колдовать = " + gryffindor.getPowerOfSorcery() +
-                "; Трансгрессия = " + gryffindor.getTransgression() +
-                "; Благородство = " + gryffindor.getNobility() +
-                "; Честь = " + gryffindor.getHonor() +
-                "; Храбрость = " + gryffindor.getCourage());
-        System.out.println();
-    }
-
-    public static void printDescription(Hufflepuff hufflepuff) {
-        System.out.println(hufflepuff.getName() +
-                ": Умение колдовать = " + hufflepuff.getPowerOfSorcery() +
-                "; Трансгрессия = " + hufflepuff.getTransgression() +
-                "; Трудолюбие = " + hufflepuff.getIndustriousness() +
-                "; Верность = " + hufflepuff.getLoyalty() +
-                "; Честность = " + hufflepuff.getHonesty());
-        System.out.println();
-    }
-
-    public static void printDescription(Ravenclaw ravenclaw) {
-        System.out.println(ravenclaw.getName() +
-                ": Умение колдовать = " + ravenclaw.getPowerOfSorcery() +
-                "; Трансгрессия = " + ravenclaw.getTransgression() +
-                "; Ум = " + ravenclaw.getIntelligence() +
-                "; Мудрость = " + ravenclaw.getWisdom() +
-                "; Творчество = " + ravenclaw.getCreation() +
-                "; Остроумие = " + ravenclaw.getWit());
-        System.out.println();
-    }
-    public static void printDescription(Slytherin slytherin) {
-        System.out.println(slytherin.getName() +
-                ": Умение колдовать = " + slytherin.getPowerOfSorcery() +
-                "; Трансгрессия = " + slytherin.getTransgression() +
-                "; Хитрость = " + slytherin.getCunning() +
-                "; Амбициозность = " + slytherin.getAmbition() +
-                "; Жажда власти = " + slytherin.getLustForPower() +
-                "; Решительность = " + slytherin.getDetermination() +
-                "; Находчивость = " + slytherin.getResourcefulness());
-        System.out.println();
     }
 }
